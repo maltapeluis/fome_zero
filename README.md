@@ -83,30 +83,30 @@ O Dashboard foi desenvolvido utilizando as métricas que refletem as 4 principai
 Cada visão é representada pelo seguinte conjunto de métricas.
 
 ## 1. Visão Geral
-1. Restaurantes registrados;
-2. Países registrados;
-3. Cidades registradas;
-4. Nº de avaliações;
-5. Variedade Culinária;
-6. Distribuição geográfica dos restaurantes.
+  1. Restaurantes registrados;
+  2. Países registrados;
+  3. Cidades registradas;
+  4. Nº de avaliações;
+  5. Variedade Culinária;
+  6. Distribuição geográfica dos restaurantes.
 
 ## 2. Visão Países
-1. Quantidade de restaurantes registrados por país;
-2. Quantidade de cidades registradas por país;
-3. Quantidade média de avaliações registradas por país;
-4. O valor médio de um prato para dois por país.
+  1. Quantidade de restaurantes registrados por país;
+  2. Quantidade de cidades registradas por país;
+  3. Quantidade média de avaliações registradas por país;
+  4. O valor médio de um prato para dois por país.
 
 ## 3. Visão Cidades
-1. Top 10 cidades com mais restaurantes;
-2. Top 7 cidades com média de avaliação acima de 4;
-3. Top 7 cidades com média de avaliação abaixo de 2,5;
-4. Top 10 cidades com a maior diversidade culinária.
+  1. Top 10 cidades com mais restaurantes;
+  2. Top 7 cidades com média de avaliação acima de 4;
+  3. Top 7 cidades com média de avaliação abaixo de 2,5;
+  4. Top 10 cidades com a maior diversidade culinária.
 
 ## 4. Visão Cozinhas
-1. Melhores restaurantes dos tipos de culinária: italiana, americana, árabe, japonesa e caseira;
-2. Top n restaurantes, sendo 1 <= n <=20;
-3. Top n melhores tipos culinários, sendo 1 <= n <=20;
-4. Top n piores tipos culinários, sendo 1 <= n <=20;
+  1. Melhores restaurantes dos tipos de culinária: italiana, americana, árabe, japonesa e caseira;
+  2. Top n restaurantes, sendo 1 <= n <=20;
+  3. Top n melhores tipos culinários, sendo 1 <= n <=20;
+  4. Top n piores tipos culinários, sendo 1 <= n <=20;
 
 # 4. Top 3 Insights de dados
 1. O marketplace é tão utilizado no Ocidente quanto no Oriente, sendo 51,8% a porcentagem da quantidade de votos do primeiro;
