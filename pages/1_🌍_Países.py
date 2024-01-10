@@ -222,7 +222,7 @@ st.set_page_config(
 # Textos a serem exibidos na barra lateral
 image_path = ('images/logo.png')
 image = Image.open( image_path)
-st.sidebar.image( image, width = 50)
+st.sidebar.image( image, width = 200)
 
 st.sidebar.markdown('## Filtros')
 
