@@ -265,16 +265,3 @@ with st.container():
                 
         fig = fig_creator(df5, 'average_cost_for_two')
         st.plotly_chart(fig, use_container_width = True, theme = None)
-
-with st.container():
-    cols = ['average_cost_for_two','continent']
-    df6 = df5.loc[:, cols].groupby('continent').mean().sort_values('average_cost_for_two', ascending = False).reset_index()
-
-    df6.loc[:, 'average_cost_for_two'] = df6.loc[:, 'average_cost_for_two'].round(0)
-
-    fig = (px.bar(df6,
-                  x = 'continent', y = 'average_cost_for_two',
-                  text_auto = True))
-
-    
-    st.plotly_chart(fig, use_container_width = True, theme = None)
