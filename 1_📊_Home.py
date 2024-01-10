@@ -1,7 +1,6 @@
 # ===========================================
 # Importando as bibliotecas necessárias
 # ===========================================
-!pip install inflection
 # importando as bibliotecas necessárias
 import pandas as pd
 import inflection
